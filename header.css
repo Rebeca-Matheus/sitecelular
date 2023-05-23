@@ -2,6 +2,8 @@
     width: 24px;
     height: 24px;
     background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 }
 .cabeçalho {
@@ -9,4 +11,34 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+.container {
+    padding: 1em;
+}
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.lista-menu__titulo {
+    color: var(--laranja);
+}
+.lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+.lista-menu__link {
+    background: var(--azul-degrade);
+    --webkit-background-clip: text;
+    --webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
 }
