@@ -7,7 +7,7 @@
     display: inline-block;
 }
 .cabeçalho {
-    background-color: var(--branco);
+    background-color: var(--azul);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@
 }
 .lista-menu__item {
     padding: 1em;
-    background-color: var(--branco);
+    background-color: var(--azul);
 }
 .lista-menu__link {
     background: var(--azul-degrade);
