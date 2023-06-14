@@ -7,7 +7,7 @@
     display: inline-block;
 }
 .cabeçalho {
-    background-color: var(--azul);
+    background-color: var(--branco);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
 }
-.container {
+.container_imagem {
     padding: 1em;
 }
 .lista-menu {
@@ -33,9 +33,10 @@
     color: var(--laranja);
     font-weight: 700;
 }
+.lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
-    background-color: var(--azul);
+    background-color: var(--branco);
 }
 .lista-menu__link {
     background: var(--azul-degrade);
