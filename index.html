@@ -53,36 +53,32 @@
      </section>
      <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
-        <!-- Slider main container -->
 <div class="swiper">
-   <!-- If we need pagination -->
    <div class="swiper-pagination"></div>
-   <!-- Additional required wrapper -->
    <div class="swiper-wrapper">
-     <!-- Slides -->
      <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre apache Kafka e spring boot da AluraBooks"></div>
      <div class="swiper-slide"><img src="img/Javascript.png"  alt="Livro sobre Javascript da AluraBooks"></div>
      <div class="swiper-slide"><img src="img/Portugol.png"    alt="Livro sobre o Portugol da AluraBooks"></div>
      ...
    </div>
- 
-   <!-- If we need navigation buttons -->
    <div class="swiper-button-prev"></div>
    <div class="swiper-button-next"></div>
 
  </div>
      </section>
+     <div class="card">
+      <div class="card__descricao">
+         <div class="descricao">
+            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+            <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+
+         </div>
+      <img src="img/Perfil-escritora 2.png" class="descricao__imagem">
+      </div>
+   </div>
      <script> const swiper = new Swiper('.swiper', {spaceBetween: 10, slidesPerView: 3, pagination: {el: '.swiper-pagination', type: 'bullets',},});</script>
          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"></script>
-      <div class="card">
-         <div class="card__descricao">
-            <div class="descricao">
-               <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-               <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-               <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
 
-            </div>
-         </div>
-      </div>
    </body>
 </html>
